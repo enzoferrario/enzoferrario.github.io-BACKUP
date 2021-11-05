@@ -19,6 +19,13 @@ html {
   background-color: #F5F5DC;
 }
 
+/* @media screen and (min-width: 800px) {
+ .navigation {
+	 justify-content: center;
+	 flex-direction: row;
+ }
+} */
+
 h1 {
   color: #092;
   font-size: 1.5em;
@@ -34,6 +41,7 @@ h1 {
   padding-bottom: 1em;
   text-align: center;
   background-color: #F5F5EE;
+	flex-direction: row;
 }
 
 h2 {
@@ -85,14 +93,8 @@ footer {
   padding-bottom: 0;
 }
 
-/* @media screen and (min-width: 1000px) {
-  .navigation {
-		display: inline;
-	  text-align: center;
-	  justify-content: center;
-  }
-}
-*/
+
+
 
 /** A quick baseline grid overlay using css+svg. Inspired by [Basehold.it](https://basehold.it/). @author leshido */
 /*
