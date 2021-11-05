@@ -15,8 +15,8 @@ html {
   line-height: 1.1em;
   font-size: 1.25em;
   font-family: "Times New Roman", Arial, sans-serif;
-	text-align: center;
-	background-color: #F5F5DC;
+  text-align: center;
+  background-color: #F5F5DC;
 }
 
 h1 {
@@ -32,14 +32,14 @@ h1 {
 
 .navigation li {
   padding-bottom: 1em;
-	text-align: center;
-	background-color: #F5F5EE;
+  text-align: center;
+  background-color: #F5F5EE;
 }
 
 h2 {
-	padding-top: 0.5em;
+  padding-top: 0.5em;
   font-size: 1.3em;
-	padding-bottom: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 p, ol {
@@ -47,9 +47,9 @@ p, ol {
 }
 
 article {
-	border-top: #333;
-	border-style: solid;
-	padding-bottom: 0.5em;
+  border-top: #333;
+  border-style: solid;
+  padding-bottom: 0.5em;
 }
 
 footer {
@@ -57,28 +57,32 @@ footer {
 }
 
 #school-pos {
-	list-style-type: none;
-	font-style: italic;
+  list-style-type: none;
+  font-style: italic;
 }
 
 #resume {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 #col-plan {
-	padding-top: 1.5em;
+  padding-top: 1.5em;
 }
 
 #last-sk {
-padding-bottom: 1.25em;
+  padding-bottom: 1.25em;
 }
 
 #skill {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 #hobbies {
-	list-style-type: none;
+  list-style-type: none;
+}
+
+#game {
+	padding-bottom: 0;
 }
 
 /* @media screen and (min-width: 1000px) {
