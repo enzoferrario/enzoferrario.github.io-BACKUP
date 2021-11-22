@@ -69,15 +69,42 @@ p, ol {
   padding-bottom: 1em;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 article {
   border-top: #333;
   border-style: solid;
   padding-bottom: 0.5em;
 }
 
+.images {
+  display: grid;
+  grid-template: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+figure {
+  display: inline-block;
+  border: 1px;
+  margin: 20px;
+}
+
+figcaption{
+  color: #EEE;
+  background: rgba(20, 20, 20, 0.5);
+  border: 1px;
+  text-align: center;
+  vertical-align: top;
+}
+
 footer {
   padding-top: 2em;
 }
+
 
 #school-pos {
   list-style-type: none;
@@ -118,6 +145,10 @@ footer {
     background-color: #F5F5EE;
     display: flex;
   	flex-direction: column;
+  }
+
+  figure {
+
   }
 }
 
