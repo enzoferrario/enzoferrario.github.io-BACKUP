@@ -13,9 +13,8 @@ html {
   color: #111;
   background: #FFF;
   line-height: 1.1em;
-  font-size: 1.25em;
+  font-size: 20px;
   font-family: "Times New Roman", Arial, sans-serif;
-  text-align: center;
   background-color: #F5F5DC;
 }
 
@@ -33,20 +32,36 @@ h1 {
   box-sizing: border-box;
   background-color: #111;
   padding: 1em;
-  width: auto;
   text-align: center;
+  width: auto;
+}
+
+.navigation{
+  text-align: center;
+  padding-bottom: 1em;
+  padding: 0.5em;
+  background-color: #F5F5EE;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .navigation li {
-  padding-bottom: 1em;
-  text-align: center;
-  background-color: #F5F5EE;
-	flex-direction: row;
+  display: block;
+  width: 100%;
+  background-color: red;
+
+}
+
+.navigation li:hover{
+  background-color: #092;
 }
 
 h2 {
+  text-indent: 2px;
   padding-top: 0.5em;
-  font-size: 1.3em;
+  font-size: 26px;
   padding-bottom: 0.5em;
 }
 
@@ -91,6 +106,19 @@ footer {
 
 #game {
   padding-bottom: 0;
+}
+
+@media screen and (max-width: 600px){
+  html{
+    text-align: center;
+  }
+
+  .navigation li {
+    text-align: center;
+    background-color: #F5F5EE;
+    display: flex;
+  	flex-direction: column;
+  }
 }
 
 
