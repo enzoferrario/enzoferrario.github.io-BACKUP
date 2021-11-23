@@ -13,9 +13,10 @@ html {
   color: #111;
   background: #FFF;
   line-height: 1.1em;
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: "Times New Roman", Arial, sans-serif;
   background-color: #F5F5DC;
+  padding-left: 0.1875em;
 }
 
 /* @media screen and (min-width: 800px) {
@@ -36,7 +37,8 @@ h1 {
   width: auto;
 }
 
-.navigation{
+.navigation {
+  font-family: Hahmlet, "Times New Roman", sans-serif;
   text-align: center;
   padding-bottom: 1em;
   padding: 0.5em;
@@ -53,14 +55,14 @@ h1 {
   padding: 0.4em;
 }
 
-.navigation li:hover{
+.navigation li:hover {
   background-color: #092;
 }
 
 h2 {
-  text-indent: 2px;
+  text-indent: 0.125em;
   padding-top: 0.5em;
-  font-size: 26px;
+  font-size: 1.625em;
   padding-bottom: 0.5em;
 }
 
@@ -86,13 +88,13 @@ article {
 
 
 figure {
-  border: 1px;
-  margin: 20px;
+  border: 0.0625em;
+  margin: 1.25em;
   position: relative;
   display: block;
 }
 
-figcaption{
+figcaption {
   color: #EEE;
   background: rgba(20, 20, 20, 0.5);
   position: relative;
@@ -133,8 +135,8 @@ footer {
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 600px){
-  html{
+@media screen and (max-width: 600px) {
+  html {
     text-align: center;
   }
 
@@ -142,8 +144,8 @@ footer {
     text-align: center;
     background-color: #F5F5EE;
     display: flex;
-  	flex-direction: column;
-    padding: 5px;
+    flex-direction: column;
+    padding: 0.3125em;
   }
 
   .images {
@@ -152,11 +154,15 @@ footer {
   }
 
   figure {
-    display: inline-block;
-    text-align: initial;
-    vertical-align: top;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: center;
     overflow: hidden;
+  }
+
+  #fox {
+    display: flex;
+    justify-content: center;
   }
 
   figcaption {
