@@ -156,7 +156,6 @@ footer {
   figure {
     display: flex;
     flex-direction: column;
-    position: center;
     overflow: hidden;
   }
 
