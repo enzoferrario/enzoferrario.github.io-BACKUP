@@ -42,16 +42,15 @@ h1 {
   padding: 0.5em;
   background-color: #F5F5EE;
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
-  list-style: none;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 .navigation li {
-  display: block;
-  width: 100%;
-  background-color: red;
-
+  display: inline;
+  text-align: center;
+  padding: 0.4em;
 }
 
 .navigation li:hover{
@@ -81,24 +80,23 @@ article {
 }
 
 .images {
-  display: grid;
-  grid-template: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 24px;
-  gap: 24px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
+
 figure {
-  display: inline-block;
   border: 1px;
   margin: 20px;
+  position: relative;
+  display: block;
 }
 
 figcaption{
   color: #EEE;
   background: rgba(20, 20, 20, 0.5);
-  border: 1px;
+  position: relative;
   text-align: center;
-  vertical-align: top;
 }
 
 footer {
@@ -145,11 +143,26 @@ footer {
     background-color: #F5F5EE;
     display: flex;
   	flex-direction: column;
+    padding: 5px;
+  }
+
+  .images {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   figure {
-
+    display: inline-block;
+    text-align: initial;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
   }
+
+  figcaption {
+    display: block;
+  }
+
 }
 
 
